@@ -1,0 +1,13 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    font-size: 40px;
+    color: #0019FB;
+    margin-top:36px ;  
+    position: absolute;
+    width: 68px;
+    height: 45px;
+}

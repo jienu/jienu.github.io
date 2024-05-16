@@ -1,13 +1,79 @@
-*{
-    list-style: none;
+@font-face {
+    font-family: 'pre';
+    src: url("PretendardVariable.ttf");
+}
+.header{
+    width: 100vw;
+    height: 140px;
+    top: 20px;
+    margin: auto;  
+    display: flex;
+    position: relative;
+    
+}
+    body{
     margin: 0px;
     padding: 0px;
-}
-#logo{
-    font-size: 40px;
+    
+    background-color: #fbfbf7;
+    }
+
+    #logo{
+    font-family: 'pre';
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 2px;
     color: #0019FB;
-    margin-top:36px ;  
+    margin-top: 33px;
+    left: 100px; 
     position: absolute;
-    width: 68px;
-    height: 45px;
+    }
+    
+    input.Instagram{
+        background: url("instagramlogo.com.png") no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        border: none;
+        margin-top: 50px;
+        right: 100px; 
+        position: absolute;
+      }
+   .Instagram:hover {
+    transform: scale(107%);
+    cursor: pointer;
+}
+#work{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    width: 250px; 
+    height: 210px; 
+    
+}
+#work:hover{
+    cursor: pointer; 
+    
+}
+#folder{
+    position: absolute;    
+    width: 250px;
+}
+
+#foldert{
+    position: absolute;  
+    color: #2f2f2f;
+    font-family: 'pre';
+    font-size: 20px;
+    
+    left: 120px;
+    top: 170px;
+}
+
+#hand{
+    position: absolute;
+    left: 160px;
+    top: 75px; 
+    width: 85px;
+    transform: rotate(-20deg);
 }

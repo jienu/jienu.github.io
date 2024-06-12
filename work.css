@@ -20,7 +20,7 @@
 
 
 .con{
-    background: linear-gradient(#ff0e0e, #ffffff);
+    background: linear-gradient(#0E81FF, #ffffff);
     width: 100vw;
     height: 53vw;
     display: flex;
@@ -221,14 +221,14 @@
     }
     .sq1{
         width: 90vw;
-        height: 142.5vw;
+        height: 141.5vw;
         margin-top: 23.8vw;
         border-radius: 3.1vw 3.1vw 0px 0px;
     }
     .sq2{
         z-index: 2;
         width: 83.5vw;
-        height: 109.8vw;
+        height: 108.8vw;
         position: absolute;
         margin-top: 40.6vw;
     }

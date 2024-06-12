@@ -1,0 +1,231 @@
+*{
+padding: 0;
+margin: 0;
+
+background: #FBFBFB;
+}
+#pje{
+    white-space: nowrap;
+     /*overflow: hidden;
+    
+    position: relative;
+    
+   left: 53px;
+    width: 1655px;
+    height: 300px;
+    top: 199px;*/
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: fixed;
+    margin-top: 115px;
+    margin-left: 52px;
+    
+    font-family: 'pre';
+    font-weight: bold;
+    font-size: 272px;
+    align-items: center;
+    letter-spacing: 4%;
+    color: #0019FB;
+    }
+
+#portfolio{
+    /*left: 741px;
+    width: 955px;
+    height: 155px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 750px;*/
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: fixed;
+    
+    
+    margin-top: 630px;
+    margin-left: 753px;
+    font-size: 210px;
+    font-family: 'pre';
+    font-weight: 800;
+    
+    
+    align-items: center;
+    letter-spacing: 4%;
+    
+    color: #0019FB;
+    }
+
+#phone
+{
+position: absolute;
+width: 228px;
+height: 35px;
+margin-left: 68px;
+bottom: 15px;
+
+font-family: 'NBP';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+
+color: #171717;
+}
+
+
+#mail
+{
+position: absolute;
+width: 228px;
+height: 35px;
+right: 6.8%;
+bottom: 15px;
+
+font-family: 'NBP';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+text-align: left;
+
+color: #171717;
+}
+
+
+#artwork
+{
+position: absolute;
+width: 122.24px;
+height: 37.2px;
+left: 182.48px;
+top: 782.41px;
+
+font-family: 'NBP';
+font-style: normal;
+font-size: 30px;
+text-align: center;
+
+color: #F50505;
+}
+
+
+#FOLDER
+{
+position: absolute;
+width: 306px;
+height: 209.4px;
+margin-left: 90px;
+    margin-top: 550px;
+    background: url(pngegg.png);
+}
+
+#CURSOR
+{
+position: absolute;
+width: 99px;
+height: 125.13px;
+left: 285px;
+top: 640px;
+transform: rotate(-19.99deg);
+background: url(pngwing.com\ \(30\)\ \(1\).png);
+}
+
+#profile
+{
+position: absolute;
+width: 125.83px;
+height: 38.3px;
+left: 489.88px;
+top: 700px;
+
+font-family: 'NBP';
+font-style: normal;
+font-size: 30px;
+text-align: center;
+
+color: #F50505;
+}
+
+#EMOJI{
+position: absolute;
+width: 169px;
+height: 169px;
+left: 469px;
+top: 500px;
+background-size:cover;
+background: url(Emotionless\ Kiss\ Emoji\ -\ 복사본.png);
+}
+.top{
+position: absolute;
+right: 4%;
+}
+.top2{
+display: inline-block;
+font-family: 'NBP';
+font-size: 27px;
+text-align: center;
+color: #0019FB;
+
+box-sizing: border-box;
+width: 140px;
+height: 45px;
+background: #FFFFFF;
+border: 1.5px solid #0019FB;
+border-radius: 12px;
+margin-top: 25px;
+margin-bottom: 25px;
+padding: 15px;
+}
+
+
+.top1
+{
+display: inline-block;
+font-family: 'NBP';
+font-size: 27px;
+text-align: center;
+color: #0019FB;
+
+box-sizing: border-box;
+width: 140px;
+height: 45px;
+background: #FFFFFF;
+border: 1.5px solid #0019FB;
+border-radius: 12px;
+margin-right: 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+padding: 15px;
+}
+
+
+.line
+{
+position: absolute;
+height: 0px;
+left: 4%;
+right: 4%;
+top: 95px;
+border-top: 2px solid #0019FB;
+}
+
+.squre{
+position: static;
+height: 84px;
+width: 50px;
+color: #f2f2f2;
+}
+
+
+body {
+    
+    width: 1920px;
+    display: flex}
+
+@font-face {
+    font-family: 'pre';
+    src: url("PretendardVariable.ttf");
+}
+@font-face {
+    font-family: 'NBP';
+    src: url("NbpInformaFivethree-vjVZ.ttf");
+}

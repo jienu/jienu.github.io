@@ -1,79 +1,189 @@
 @font-face {
-    font-family: 'pre';
-    src: url("PretendardVariable.ttf");
+    font-family: 'nbp';
+    src: url("NbpInformaFivethree-vjVZ.ttf");
 }
-.header{
+@font-face {
+    font-family: '2';
+    src: url("NbpInformaFivesix-2dXW.ttf");
+}
+*{
+    list-style: none;
+    border-collapse: collapse;
+    text-decoration: none;
+     margin: 0vw;
+    padding: 0vw;
+}
+#welcome{
+    font-family: '2';
+    font-size: 1.3vw;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 2.4vw;
+    margin-left: 85vw;  
+}
+.con{
+    background: linear-gradient(#0E81FF, #ffffff);
     width: 100vw;
-    height: 140px;
-    top: 20px;
-    margin: auto;  
+    height: 53vw;
     display: flex;
-    position: relative;
-    
+  justify-content : center;
+  position:relative;
+  z-index: 1; 
 }
-    body{
-    margin: 0px;
-    padding: 0px;
+.con2{
+    position: absolute;
+     width: 100vw;
+     height: 53vw;
+     display: flex;
+     
+     z-index: 2; 
+ }
+.logo{
+    width: 70.3vw;
+    display: flex;
+    margin-top: 7.2vw;
+  justify-content : center;
+  position: absolute;
+  z-index: 3; 
+}
+.work{
+    position: absolute;
+    margin-left: 7.3vw;
+    margin-top: 37.1vw;  
+    width: 10.2vw;
+    height: 11.8vw;
     
-    background-color: #fbfbf7;
-    }
+    z-index: 3; 
+}
+.work:hover{
+    cursor: pointer;    
+}
 
-    #logo{
-    font-family: 'pre';
-    font-size: 60px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #0019FB;
-    margin-top: 33px;
-    left: 100px; 
-    position: absolute;
-    }
-    
-    input.Instagram{
-        background: url("instagramlogo.com.png") no-repeat;
-        background-size: cover;
-        width: 40px;
-        height: 40px;
-        border: none;
-        margin-top: 50px;
-        right: 100px; 
-        position: absolute;
-      }
-   .Instagram:hover {
-    transform: scale(107%);
-    cursor: pointer;
-}
-#work{
-    position: absolute;
-    top: 550px;
-    left: 200px;
-    width: 250px; 
-    height: 210px; 
-    
-}
-#work:hover{
-    cursor: pointer; 
-    
-}
-#folder{
+.folder{
     position: absolute;    
-    width: 250px;
+    width: 10.2vw;
+    margin-left: 7.3vw;
+    margin-top: 37.1vw; 
 }
 
-#foldert{
+.foldert{
     position: absolute;  
-    color: #2f2f2f;
-    font-family: 'pre';
-    font-size: 20px;
-    
-    left: 120px;
-    top: 170px;
+    color: #0019FB;
+    font-family: 'nbp';
+    font-size: 1.6vw;
+    margin-left: 11.2vw;
+    margin-top: 48.1vw;
 }
 
-#hand{
+.hand{
     position: absolute;
-    left: 160px;
-    top: 75px; 
-    width: 85px;
-    transform: rotate(-20deg);
+    margin-left:13.9vw;
+    margin-top: 41.5vw; 
+    width: 4.3vw;
+    transform: rotate(-27.78deg);
 }
+.aboutme{
+    position: absolute;
+    margin-left: 83vw;
+    margin-top: 37.1vw;  
+    width: 9.7vw;
+    height: 11.8vw;
+    
+    z-index: 3; 
+    
+}
+
+.emoji{
+    position: absolute;    
+    width: 9.6vw;
+    margin-left: 83vw;
+    margin-top: 37.2vw;
+    z-index: 3;
+}
+
+.met{
+    position: absolute;  
+    color: #0019FB;
+    font-family: 'nbp';
+    font-size: 1.6vw;
+    margin-left: 84.1vw;
+    margin-top: 48.1vw;
+}
+.line{
+    position: absolute; 
+    width: 100vw;
+    height: 0.13vw;
+    background-color: #6ebbff;
+    margin-top: 52vw;
+
+}
+
+@media (max-width: 480px) {
+    .con{
+        width: 100vw;
+        height: 205vw;
+        display: flex;
+      justify-content : center;
+      position: absolute;
+    }
+    .con2{
+       position: absolute;
+        width: 100vw;
+        height: 50vw;
+        display: flex;
+        z-index: 3; 
+    }
+    
+    #welcome{
+        font-size: 4vw;
+        margin-top: 12.1vw;
+        margin-left: 64vw;  
+    }
+    .logo{
+        margin-top: 53vw;
+        width: 98vw;
+    }
+    .work{
+       
+    margin-top: 125.4vw;
+        margin-left: 14.6vw;
+        width: 25.4vw;
+        height: 29.4vw;
+    }
+    .aboutme{
+        margin-top: 125.4vw;
+            margin-left: 61vw;
+            width: 25.4vw;
+            height: 29.4vw;
+        }
+    .met{
+        font-size: 4vw;
+        margin-top: 152.7vw;
+        margin-left: 63.8vw;
+    }
+    .emoji{
+        width: 24.2vw;
+        margin-top: 125.4vw;
+        margin-left: 61vw;
+    }
+    .folder{
+        width: 25.4vw;
+        margin-top: 125.4vw;
+        margin-left: 14.6vw;    
+    }
+    .foldert{
+        font-size: 4vw;
+        margin-top: 152.7vw;
+        margin-left: 24.2vw;
+
+    }
+    .hand{
+        width: 10.825vw;
+        margin-top: 136.5vw;
+        margin-left: 31vw;
+    }
+    .line{
+        background-color: transparent;
+    }
+}
+

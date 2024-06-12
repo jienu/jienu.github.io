@@ -1,0 +1,862 @@
+*{
+    list-style: none;
+    border-collapse: collapse;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@font-face {
+    font-family: 'pre';
+    src: url("PretendardVariable.ttf");
+}
+@font-face {
+    font-family: 'NBP';
+    src: url("NbpInformaFivesix-2dXW.ttf");
+}
+@font-face {
+    font-family: 'noto';
+    src: url("NotoSansKR-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'lblack';
+    src: url("Lato-Black.ttf");
+}
+@font-face {
+    font-family: 'lbold';
+    src: url("Lato-Bold.ttf");
+}
+@font-face {
+    font-family: 'lregular';
+    src: url("Lato-Regular.ttf");
+}
+@font-face {
+    font-family: 'mon';
+    src: url("Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'h';
+    src: url("NbpInformaFivethree-vjVZ.ttf");
+}
+
+/*상단*/
+.header{
+    width: 100vw;
+    height: 7.5vw;
+    margin: auto;
+    display: flex;
+    background: linear-gradient(#0E81FF, #FDFEFF);
+}
+.folder{
+    position: absolute;
+    margin-top: 1.6vw;
+    margin-left: 3.9vw;
+    width: 4.8vw;
+    z-index: 1; 
+    
+}
+
+.xbtn{
+    position: absolute;
+    margin-top:2.1vw;
+    margin-left: 92.3vw;
+    width: 3.8vw;
+    height: 3.8vw;
+    z-index: 2;
+    border-radius:0.8vw;    
+    background:linear-gradient(#ffffff, #FF64C8);
+    border:0.1vw solid #0019FB;
+    font-family: h;
+    text-indent:0.6vw;
+    font-size: 2.8vw;
+    font-weight: bold;
+    color: #0019FB;
+    /*display:table-cell;
+    vertical-align:middle;
+    text-align: center;*/
+}
+.xbtn:hover {
+    transform: scale(105%);
+    cursor: pointer;
+}
+.xbtn:active {
+    transform: scale(1.1);
+}
+#www{
+    font-family: NBP;
+    font-size: 1.6vw;
+    position: absolute;
+    margin-top: 3.4vw;
+    margin-left: 9.4vw;
+    color: #0019FB;   
+}
+
+
+/*타이틀*/
+.main{
+    width: 92.2vw;
+    height: 38.8vw;
+    margin: auto;
+    margin-top: 5vw;
+    display: flex;
+}
+.mains{
+    font-family: 'pre';
+    font-weight: 700;
+    font-size: 1.3vw;
+
+    color: #952632;
+    margin-top: 24.2vw;
+    margin-left: 7.2vw;
+    
+    position: absolute;
+}
+.logo{
+    /*position: relative;*/
+    margin-top:18.1vw;
+    margin-left: 7.2vw;
+    width:16.6vw;
+    height:5.9vw;
+    object-fit: cover;
+}
+.xd{
+    position: absolute;
+    width: 2vw;
+    height: 1.9vw;
+    object-fit: cover;
+    margin-top: 26.5vw;
+    margin-left: 7.2vw;
+}
+.mac{
+    position: absolute;
+    width: 40.2vw;
+    height: 34.3vw;
+    object-fit: cover;
+    margin-top: 2.5vw;
+    margin-left: 47.8vw;
+    
+    
+}
+
+/*스타일가이드*/
+.sg{
+    width: 92.2vw;
+    height: 40.7vw;
+    display: flex;
+    margin: auto;
+    margin-top: 1.56vw;
+
+}
+.sgs{
+    font-family: 'pre';
+    font-weight: 700;
+    color: #952632;
+    font-size: 1.5vw;
+    
+    margin-left: 7.6vw;
+    margin-top: 3.2vw;
+    height: 1.9vw;
+
+}
+.logo2{
+    position: absolute;
+    margin-top:8.2vw;
+    margin-left: 10.2vw;
+    width:9.9vw;
+    height:3.9vw;
+    object-fit: cover;
+}
+
+.color{
+    position: absolute;
+    margin-top:13.9vw;
+    margin-left: 10.2vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+    font-family: 'pre';
+    color: #141414;
+
+}
+.keyword{
+    position: absolute;
+    margin-top:13.9vw;
+    margin-left: 46.1vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+    font-family: 'pre';
+    color: #141414;
+}
+.modern{
+    position: absolute;
+    margin-top: 22.9vw;  
+   margin-left: 48.6vw; 
+    font-size: 1vw;
+    font-family: 'pre';
+    text-align: center;
+    color: #eb1f23;
+}
+.modernc{
+    position: absolute;
+    margin-top:19.0vw;  
+   margin-left: 46.1vw;
+    width: 8.8vw;
+    height: 8.8vw;
+   border:0.1vw solid #EB1F23;
+    border-radius: 50%;
+    background-color:transparent;
+}
+.practical{
+    position: absolute;
+    margin-top: 22.9vw;  
+   margin-left: 58.5vw;
+    font-size: 1vw;
+    font-family: 'pre';
+    
+    text-align: center;
+    color: #eb1f23;
+}
+.practicalc{
+    position: absolute;
+    margin-top:19.0vw;  
+   margin-left: 56.6vw;
+    width: 8.8vw;
+    height: 8.8vw;
+   border:0.1vw solid #EB1F23;
+    border-radius: 50%;
+    background-color:transparent;
+}
+.minimal{
+    margin-top: 22.9vw;  
+   margin-left: 69.5vw;
+   font-size: 1vw;
+    position: absolute;
+    font-family: 'pre';
+    text-align: center;
+    color: #eb1f23;
+}
+.minimalc{
+    position: absolute;
+    margin-top:19.0vw;  
+   margin-left: 67.1vw;
+    width: 8.8vw;
+    height: 8.8vw;
+   border:0.1vw solid #EB1F23;
+    border-radius: 50%;
+    background-color:transparent;
+}
+.rational{ 
+    position: absolute;
+    font-family: 'pre';
+    font-size: 1vw;
+    margin-top: 22.86vw;  
+   margin-left: 79.7vw;
+    text-align: center;
+    color: #eb1f23;
+}
+.rationalc{
+    position: absolute;
+    margin-top:19.0vw;  
+   margin-left: 77.60vw;
+    width: 8.8vw;
+    height: 8.8vw;
+   border:0.1vw solid #EB1F23;
+    border-radius: 50%;
+    background-color:transparent;
+}
+.c1{
+    position: absolute;
+    margin-top:19.5vw;
+    margin-left: 13.4vw;
+    font-size: 0.9vw;
+    font-family: 'pre';
+    font-weight: 600;
+    z-index: 1;
+    color: #141414;
+    background-color:transparent;
+}
+.c2{
+    position: absolute;
+    margin-top:19.5vw;
+    margin-left: 24.7vw;
+    font-size: 0.9vw;
+    font-family: 'pre';
+    font-weight: 600;
+    z-index: 1;
+    color: #141414;
+    background-color:transparent;
+}
+.c3{
+    position: absolute;
+    margin-top:19.5vw;
+    margin-left: 36.3vw;
+    font-size: 0.9vw;
+    font-family: 'pre';
+    font-weight: 600;
+    z-index: 1;
+    color: #141414;
+    background-color:transparent;
+}
+.circle1 {
+    position: absolute;
+    margin-top:19.0vw;
+    margin-left: 10.2vw;
+    width : 4.9vw;
+    height : 4.9vw;
+    border-radius: 50%;
+    background-color: #EB1F23;
+  
+  }
+  .circle2 {
+    position: absolute;
+    margin-top:19.0vw;
+    margin-left: 21.7vw;
+    width : 4.9vw;
+    height : 4.9vw;
+    border-radius: 50%;
+    background-color: #952632;
+  
+  }
+  .circle3 {
+    position: absolute;
+    margin-top:19.0vw;
+    margin-left: 33.1vw;
+    width : 4.9vw;
+    height : 4.9vw;
+    border-radius: 50%;
+    background-color: #363636;
+  
+  }
+  .font{
+    position: absolute;
+    margin-top: 29.2vw;
+    margin-left: 10.2vw;
+    font-size: 1.3vw;
+    font-family: 'pre';
+    font-weight: 600;
+    color: #141414; 
+  }
+n1{
+font-weight: 500;
+}
+n2{
+    font-weight: 600;
+    }
+n3{
+font-weight: 800;
+}
+.noto{
+    font-family: 'noto';
+    font-size: 0.94vw;
+    position: absolute;
+    color: #141414;
+   
+    text-align: 160%;
+    width: 25.96vw;
+    
+    margin-left: 10.21vw;
+    margin-top: 31.72vw;
+    }
+.lato{
+    font-size: 0.94vw;
+    position: absolute;
+    color: #141414;
+    margin-left: 33.29vw;
+    margin-top: 31.72vw;
+}
+l1{
+    font-family: 'lregular';
+    
+}
+l2{
+    font-family: 'lbold';
+}
+l3{
+    font-family: 'lblack';
+}
+.mont{
+    font-family: 'mon';
+    font-size: 0.94vw;
+    font-weight: 700;
+    position: absolute;
+    color: #141414;
+    margin-left: 10.21vw;
+    margin-top: 37.4vw;
+    
+}
+
+/*프로토타입*/
+.pt{
+    width: 92.2vw;
+    height: 152.2vw;
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-top: 1.56vw;
+    
+}
+.prototype{
+    font-family: 'pre';
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #952632;
+    margin-left: 7.55vw;
+    margin-top: 3.1vw;  
+    position: absolute; 
+}
+.ptpc{
+    position: absolute;
+    margin-top:8.2vw;
+    margin-left: 25.5vw;
+    /*margin-right: 29.5vw;*/
+    width:43.3vw;
+    height: 143.3vw;
+}
+.ptph{
+    position: absolute;
+    margin-top:8.2vw;
+    margin-left: 10.2vw;
+    width: 13.6vw;
+    height: 143.3vw;
+}
+.pts{
+    position: absolute;
+    width: 25vw;
+    height: 152.2vw;
+    margin-left: 70.8vw;
+    font-family: 'pre';
+    font-weight: 500;
+    font-size: 0.9vw;
+    /*font-size: 18px;*/
+    text-align: 160%;
+    color: #952632;
+    
+}
+.d1{
+    position: absolute;
+    margin-top: 20vw;
+}
+.d2{
+    position: absolute;
+    margin-top: 37vw;
+    width: 13.3vw;
+}
+
+.d3{
+    position: absolute;
+    margin-top: 53vw;
+}
+.d4{
+    position: absolute;
+    margin-top: 64vw;
+}
+.d5{
+    position: absolute;
+    margin-top: 76vw;
+}
+.d6{
+    position: absolute;
+    margin-top: 92vw;
+}
+.d7{
+    position: absolute;
+    margin-top: 106vw;
+    width: 13.3vw;
+}
+.d8{
+    position: absolute;
+    margin-top: 147vw;
+}
+/*목업*/
+.m1{
+    
+    width:90vw;
+    margin: auto;
+    display: grid;
+  place-items: center;
+}
+.m2{
+    
+    margin: auto;
+    width:90vw;
+    display: grid;
+  place-items: center;
+  margin-bottom: 5vw;
+    
+}
+
+/*@media (max-width: 1024px) {
+
+    .sgs{
+    font-size:15px;
+    }
+    .prototype{
+        font-size:15px;
+    }
+    .color{
+        font-size:14px;
+    }
+    .mont{
+        margin-left: 35.29vw;
+        font-size: 10px;}
+    .lato{
+        margin-left: 35.29vw;
+        font-size: 10px;}
+    .noto{
+        font-size: 10px;
+width: 150px;}
+    .font{
+     font-size:14px;
+    }
+    .keyword{
+        font-size:14px;
+    }
+    .main{margin-top: 90px;}  
+  }
+  @media (max-width: 900px) {
+  .pts{
+        margin-left: 53vw; 
+    }
+    .ptpc{
+       
+        margin-left: 27.1vw;
+        
+    }
+    .ptph{
+       
+        margin-left: 12.2vw;
+        
+    }  
+  }*/
+  /*@media (max-width: 768px) {
+    .pts{
+        margin-left: 48vw;
+        font-size: 1.8vw;
+    }
+  }*/
+  @media (max-width: 480px) {
+    /*모바일헤더*/
+    .header{
+        width: 100vw;
+        height: 18.3vw;
+        margin: auto;
+        display: flex;
+        background: linear-gradient(#0E81FF, #FDFEFF);
+    }
+    .folder{
+        position: absolute;
+        margin-top: 4.4vw;
+        margin-left: 5vw;
+        width: 9.4vw;
+        z-index: 1; 
+        
+    }
+    
+    .xbtn{
+        position: absolute;
+        margin-top: 5.8vw;
+        margin-left: 88.3vw;
+        width: 6.7vw;
+        height: 6.7vw;
+        z-index: 2;
+        border-radius:1.3vw;    
+        background:linear-gradient(#ffffff, #FF64C8);
+        border:0.2vw solid #0019FB;
+        font-family: h;
+        text-indent:1.7vw;
+        font-size: 6.3vw;
+        font-weight: bold;
+        color: #0019FB;
+        /*display:table-cell;
+        vertical-align:middle;
+        text-align: center;*/
+    }
+    .xbtn:hover {
+        transform: scale(105%);
+        cursor: pointer;
+    }
+    .xbtn:active {
+        transform: scale(1.1);
+    }
+    #www{
+        font-family: NBP;
+        font-size: 3.8vw;
+        position: absolute;
+        margin-top: 7.4vw;
+        margin-left: 15.8vw;
+        color: #0019FB;   
+    }
+    
+    /*모바일메인*/
+    .main{
+        width: 100vw;
+        height: 62.5vw;   
+    }
+    .logo{
+        width: 31.7vw;
+        height: 12.5vw;
+        margin-left:5vw; 
+        margin-top: 25.2vw;
+        object-fit: cover; 
+    }
+    .mains{
+        font-size: 3.8vw;
+        margin-top: 37.5vw;
+        margin-left: 5vw;
+    }
+    .xd{
+        width: 3.5vw;
+    height: 3.5vw;
+    margin-left: 5vw;
+    margin-top: 43.1vw;
+    }
+   .mac{
+    width: 46.9vw;
+    height: 40vw;
+    margin-right: 0vw;
+    margin-top: 13.1vw;
+   }
+   /*모바일스타일가이드*/
+    
+    .sg{
+        width: 100vw;
+        height: 129.4vw;
+        display: flex;
+        margin: auto;
+        margin-top: 1.56vw;
+    
+    }
+    
+    .logo2{
+        width: 22.5vw;
+        height: 9vw;
+        margin-left:8.5vw; 
+        margin-top: 10.2vw;
+        object-fit: cover;
+    }
+   
+    .sgs{  
+        font-size: 3.8vw;
+        margin-left:5vw; 
+    } 
+    .keyword{
+        position: absolute;
+        margin-top:24.2vw;
+        margin-left: 8.5vw;
+    font-size: 3.1vw;
+    
+    }
+    .color{
+        margin-top:64.2vw;     
+    margin-left: 8.5vw;
+    font-size: 3.1vw;
+        }
+        .modern{
+            margin-top: 41.2vw;  
+           margin-left: 10vw; 
+            font-size: 2.7vw;
+            
+        }
+        .modernc{
+            margin-top:33.3vw;  
+           margin-left: 6vw;
+            width: 18.8vw;
+            height: 18.8vw;
+           border:0.3vw solid #EB1F23;
+           
+        }
+        .practical{
+            margin-top: 41.2vw;  
+           margin-left: 31.5vw;
+            font-size: 2.7vw;
+            
+        }
+        .practicalc{
+            margin-top:33.3vw;  
+           margin-left: 29vw;
+            width: 18.8vw;
+            height: 18.8vw;
+           border:0.3vw solid #EB1F23;
+        }
+        .minimal{
+            margin-top: 41.2vw;  
+           margin-left: 56vw;
+           font-size: 2.7vw;
+        }
+        .minimalc{
+            margin-top:33.3vw;  
+           margin-left: 51.9vw;
+            width: 18.8vw;
+            height: 18.8vw;
+           border:0.3vw solid #EB1F23;
+            
+        }
+        .rational{ 
+            
+            font-size: 2.7vw;
+            margin-top: 41.2vw;  
+           margin-left: 78vw;
+            
+        }
+        .rationalc{
+           
+            margin-top:33.3vw;  
+           margin-left: 74.8vw;
+            width: 18.8vw;
+            height: 18.8vw;
+           border:0.3vw solid #EB1F23;
+            border-radius: 50%;
+        }
+        .c1{
+            
+            margin-top:76.9vw;
+            margin-left: 17.7vw;
+            font-size: 2.5vw; 
+        }
+        .c2{
+            margin-top:76.9vw;
+            margin-left: 48.3vw;
+            font-size: 2.5vw;
+            font-family: 'pre';
+            font-weight: 600;
+        }
+        .c3{
+            margin-top:76.9vw;
+            margin-left: 80vw;
+            font-size: 2.5vw;
+        }
+        .circle1 {
+           
+            margin-top:74.8vw;
+            margin-left: 9.2vw;
+            width : 14.6vw;
+            height : 14.6vw;
+           
+          }
+          .circle2 {
+           
+            margin-top:74.8vw;
+            margin-left: 40.4vw;
+            width : 14.6vw;
+            height : 14.6vw;
+           
+          }
+          .circle3 {
+           
+            margin-top:74.8vw;
+            margin-left: 71.7vw;
+            width : 14.6vw;
+            height : 14.6vw;
+            
+          }
+   .font{
+    position: absolute;
+    margin-top: 101.5vw;
+    margin-left: 8.5vw;
+    font-size: 3.1vw;
+
+  }
+.mont{
+ margin-top: 124vw;
+margin-left: 9.8vw;
+ font-size: 2.7vw;}
+.lato{
+ margin-top: 108.8vw;
+ margin-left: 53.8vw;
+ font-size: 2.7vw;}
+ .noto{
+    width: 34.2vw;
+    margin-left: 9.8vw;
+ margin-top: 108.8vw;
+ font-size: 2.7vw;}
+
+ /*모바일프로토*/ 
+ .pt{
+    width: 100vw;
+    height: 860.6vw;
+    display: flex;
+    
+    position: relative;
+    margin-top: 2.56vw;
+
+}
+.prototype{
+        font-family: 'pre';
+        font-weight: 700;
+        font-size: 3.8vw;
+        color: #952632;
+        margin-left:5vw; 
+    }
+    .pts {
+    position: absolute;
+      font-size: 2.3vw;
+      text-align: 130%;
+    color: #952632;
+    margin-left: 55vw;
+    margin-top: 13.8vw;
+    width: 45vw;
+    height: 528.5vw;
+    
+    }
+    .d1{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 48vw;
+    }
+    
+    .d2{
+        margin-left: 3vw;
+        color: #952632;
+        position: absolute;
+        margin-top: 110vw;
+        width: 36vw;
+    }
+    .d3{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 170.5vw;
+    }
+    .d4{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 205vw;
+    }
+    .d5{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 244vw;
+    }
+    .d6{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 282vw;
+        
+    }
+    .d7{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 320vw;
+        width:33vw;
+    }
+    .d8{
+        margin-left: 3vw;
+        position: absolute;
+        margin-top: 515vw;
+    }
+    .ptpc{
+        position: absolute;
+        margin-left: 5vw;
+        margin-top: 551.3vw;
+        width: 90vw;
+        height: 298.3vw;
+    }
+    .ptph{
+        position: absolute;
+        margin-left: 5vw;
+        margin-top: 13.8vw;
+        width: 50vw;
+        height: 528.5vw;
+    }
+    
+       
+  }

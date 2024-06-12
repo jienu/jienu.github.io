@@ -121,7 +121,7 @@
 @media (max-width: 480px) {
     .con{
         width: 100vw;
-        height: 150vw;
+        height: 130vw;
         display: flex;
       justify-content : center;
       position: absolute;
